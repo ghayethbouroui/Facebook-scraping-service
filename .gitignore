@@ -1,0 +1,17 @@
+# .gitignore
+
+# Environment files
+.env
+
+# Docker artifacts
+*.dockerignore
+docker-compose.yml
+
+# Other files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
